@@ -1,0 +1,131 @@
+ @media (min-width: 641px) {
+ .mobile { display: none !important; }
+	.main-navigation {display: inline-block; padding-right: 72px; width: 80%; }
+.site-branding { display: inline-block; width: 20%; }
+.doscols {
+-moz-column-count: 2 !important;
+-webkit-column-count:2 !important;
+column-count:2 !important;
+-moz-column-gap: 20px !important;
+-webkit-column-gap:20px !important;
+column-gap:20px !important;
+-moz-column-rule: 1px solid #9cc840;
+-webkit-column-rule:1px solid #9cc840;
+column-rule:1px solid #9cc840;
+margin-bottom: 50px;
+
+}
+
+.columns-3 ul.products li.product { width: 23% !important; }
+#colophon .pie { display: inline-block;width: 33%;}
+
+form.woocommerce-cart-form tr.cart_item td a img { max-width: 100px; }
+
+form.woocommerce-cart-form tr.cart_item td a.remove { display: block; width: 30px; margin:auto;}
+
+.woocommerce .col-1, .woocommerce .col-2 { display: inline-block; width: 48%; vertical-align: top; margin-right: 1%; box-sizing: border-box; padding: 10px; }
+
+#place_order {margin: 10px 0px 100px auto; }
+
+.widget_search input.search-field { width: 60%; }
+.widget_search input.search-submit { width: 35%; }
+
+#menumobile { display: none !important; }
+
+ .col1, .col5, .col10, .col20, a.col25, .col25, .col30, .col33, .col40, .col45, .col50, .col60, .col70, .col75, .col80, .col90 { display: inline-block; box-sizing: border-box; }
+
+.col1 { width: 1%; } 
+.col5 { width: 5%; }
+.col10 { width: 10%; }
+.col20 { width: 20%; }
+.col25 { width: 25%; }
+.col30 { width: 30%; }
+.col33 { width: 33%; }
+.col40 { width: 40%; }
+.col45 { width: 45%; }
+.col50 { width: 50%; }
+.col60 { width: 60%; }
+.col70 { width: 70%; }
+.col75 { width: 75%; }
+.col80 { width: 80%; }
+.col90 { width: 90%; }
+
+.cuerpo { max-width: 1200px; margin-left: auto; margin-right: auto; }
+
+#slideini {  padding-top: 120px; }
+.woocommerce-breadcrumb { margin-top: 28px; }
+
+   .single-product div.product .woocommerce-product-gallery { display: inline-block; width: 40%; float: left; margin-top: -16px; clear: both; }
+
+ .single-product div.product .entry-summary {display: inline-block; width: 50%; vertical-align: top; clear: both; text-align: left; }
+
+	.search-results article { display: inline-block; width:20%; }
+	 
+ } /*  FIN ESCRITORIO */
+
+
+ @media (max-width: 640px) {
+ 	.nomobile { display: none !important; }
+	nav button { float: right; background: ##004071 !important; color: #FFF; }
+
+	.site-branding { display: inline-block; width: 40%; }
+.main-navigation {display: inline-block; padding-right: 10px; width: 60%; }
+nav button { background: #769fb4;  }
+ .columns-3 ul.products li.product { width: 42% !important; }
+ ul.products li.product .woocommerce-loop-product__title { font-size: 14px!important; line-height: 14px;min-height: 36px !important;}
+
+ #colophon .pie { display: block;width: 90%; }
+
+form.woocommerce-cart-form tr.cart_item td a img { max-width: 400px; margin-top: 0px !important; }
+td.product-remove {  }
+
+form.woocommerce-cart-form tr.cart_item td a.remove { display: block; width: 30px; margin:50px auto 0px 10px;}
+
+.woocommerce .col-1, .woocommerce .col-2 { display: block; width: 96%; vertical-align: top; margin: auto; box-sizing: border-box; padding: 10px; }
+
+.woocommerce .form-row input[name="createaccount"] { width: 10% !important; }
+
+ul.wc_payment_methods { margin: 0px; padding: 0px; margin-left: 10px; }
+
+#place_order { margin: 50px auto 100px auto; display: block;}
+.entry-content p { text-align: justify; width: 100%; margin: auto; }
+
+.widget_search input.search-field { width: 68%; }
+.widget_search input.search-submit { width: 25%; }
+
+.menu-toggle { display: none !important; }
+
+.main-navigation .custom-html-widget a { font-size: 25px; }
+
+#slideini {  padding-top: 80px; }
+
+#special_links a { width: inherit !important; vertical-align: middle; }
+#tabs .tab img { width: 100% !important; }
+#tabs .tab h2 {  font-size: 18px !important; letter-spacing: 0; text-align: center !important; line-height: 20px !important; }
+#tabs .tab { display: inline-block; width: 50%; padding: 10px; border-bottom: 0px solid yellow;  }
+#tabs .tabactive { border-top: 4px solid yellow; border-bottom: 0px solid black; }
+.buscar h4 { width: 60% !important; }
+
+
+#presautozoo { padding: 20px; }
+.onsalewrap { width: 30% !important; }
+.autoproducto p { text-align: center; }
+.inner { background: lightgray !important; }
+#autoelegir { padding: 0px 20px 50px 20px !important; }
+.home .entry-content #autoelegir h2 { font-size:32px; line-height: 32px; }
+#autoelegir p { text-align: center; }
+#colophon {  padding-left: 5% !important; }
+#colophon .cuerpo { width: 95%; }
+#infobar { padding: 20px 0px; }
+
+#slideini h1 { font-size:30px !important; width: 90% !important; line-height: 30px !important;  }
+
+   .single-product div.product .woocommerce-product-gallery { display: inline-block; width: 100%; margin-top: -16px; clear: both; }
+
+ .single-product div.product .entry-summary {display: block; width: 100%; padding-left: 5%; vertical-align: top; clear: both; text-align: left; margin-bottom: 50px; }
+ul.products li.product { display: inline-block; width: 49%; }
+	 
+	 .search-results article { width:96%; }
+	 
+/* FIN DE MOBILE */
+}
